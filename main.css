@@ -1,0 +1,70 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #7977db21;
+}
+
+.navbar {
+    background-color: #5351c4;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #5351c4;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover
+.nav-catalogo .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+}
+
+.section-title {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.text-colored {
+    color: #5351c4;
+}
+
+.nav-catalogo .nav-link.active,
+#fale-conosco button {
+    color: #fff;
+}
+
+.nav-catalogo .nav-link:hover {
+    color: #5351c4;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#tresponto {
+    text-decoration: none;
+}
+
+#emalta, 
+#catalogo {
+    background-color: #fff;
+}
+
+.form-control {
+    background-color: #5351c444;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
